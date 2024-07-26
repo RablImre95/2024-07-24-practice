@@ -1,32 +1,15 @@
 body {
-    >div {
-        >div {
+    >#root {
+        >.characters {
             max-width: 800px;
 
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
 
-            div {
+            .card {
                 border: 1px solid black;
-
-                h2 {
-                    color: green;
-                }
-
-                h3 {
-                    font-size: 36px;
-                    &.species {
-                        color: red
-                    }
-                }
-                // h3.species {
-                //     color: red;
-                // }
-                h4 {
-                    color: blue;
                 }
             }
         }
     }
-}
